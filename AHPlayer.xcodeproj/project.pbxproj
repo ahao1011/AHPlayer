@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C53D6DC6F05E58682D8F5E86 /* libPods-AHPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1312EC9494A339AF7CFEF638 /* libPods-AHPlayer.a */; };
+		E00C352C1EF9FF1700569714 /* AHPlayerControView.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C352B1EF9FF1700569714 /* AHPlayerControView.m */; };
+		E00C35301EFA1DF800569714 /* AHPlayerStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C352F1EFA1DF800569714 /* AHPlayerStatus.m */; };
 		E023EE671EF8C4BB0043AD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE661EF8C4BB0043AD29 /* main.m */; };
 		E023EE6A1EF8C4BB0043AD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE691EF8C4BB0043AD29 /* AppDelegate.m */; };
 		E023EE6D1EF8C4BB0043AD29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE6C1EF8C4BB0043AD29 /* ViewController.m */; };
@@ -15,6 +18,14 @@
 		E023EE751EF8C4BB0043AD29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E023EE731EF8C4BB0043AD29 /* LaunchScreen.storyboard */; };
 		E023EE801EF8C4BB0043AD29 /* AHPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE7F1EF8C4BB0043AD29 /* AHPlayerTests.m */; };
 		E023EE8B1EF8C4BB0043AD29 /* AHPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE8A1EF8C4BB0043AD29 /* AHPlayerUITests.m */; };
+		E023EE9D1EF8C9310043AD29 /* AHPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EE9C1EF8C9310043AD29 /* AHPlayerItem.m */; };
+		E023EEA61EF9078C0043AD29 /* AHPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EEA51EF9078C0043AD29 /* AHPlayerView.m */; };
+		E023EEA81EF90DDF0043AD29 /* AHPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E023EEA71EF90DDF0043AD29 /* AHPlayer.bundle */; };
+		E023EEAB1EF90E4A0043AD29 /* UIImage+AH.m in Sources */ = {isa = PBXBuildFile; fileRef = E023EEAA1EF90E4A0043AD29 /* UIImage+AH.m */; };
+		E03996461EFBB3B700A449D2 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E03996451EFBB3B700A449D2 /* ASValueTrackingSlider.m */; };
+		E03996491EFBB3D300A449D2 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03996481EFBB3D300A449D2 /* ASValuePopUpView.m */; };
+		E039964C1EFBB46300A449D2 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = E039964B1EFBB46300A449D2 /* MMMaterialDesignSpinner.m */; };
+		E03D88631F00A6A5005CBA50 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = E03D88621F00A6A5005CBA50 /* ZFBrightnessView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1312EC9494A339AF7CFEF638 /* libPods-AHPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AHPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4373209609830B146AAAA132 /* Pods-AHPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHPlayer/Pods-AHPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		86E93B24621CEC0681DDADF6 /* Pods-AHPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHPlayer/Pods-AHPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		E00C352A1EF9FF1700569714 /* AHPlayerControView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHPlayerControView.h; sourceTree = "<group>"; };
+		E00C352B1EF9FF1700569714 /* AHPlayerControView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHPlayerControView.m; sourceTree = "<group>"; };
+		E00C352D1EFA1D9200569714 /* AHPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHPlayer.h; sourceTree = "<group>"; };
+		E00C352E1EFA1DF800569714 /* AHPlayerStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHPlayerStatus.h; sourceTree = "<group>"; };
+		E00C352F1EFA1DF800569714 /* AHPlayerStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHPlayerStatus.m; sourceTree = "<group>"; };
+		E021F1D51EFCB7AD00390891 /* AHPlayerHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHPlayerHeader.h; sourceTree = "<group>"; };
 		E023EE621EF8C4BB0043AD29 /* AHPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E023EE661EF8C4BB0043AD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E023EE681EF8C4BB0043AD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,22 @@
 		E023EE861EF8C4BB0043AD29 /* AHPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E023EE8A1EF8C4BB0043AD29 /* AHPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHPlayerUITests.m; sourceTree = "<group>"; };
 		E023EE8C1EF8C4BB0043AD29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E023EE9B1EF8C9310043AD29 /* AHPlayerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHPlayerItem.h; sourceTree = "<group>"; };
+		E023EE9C1EF8C9310043AD29 /* AHPlayerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHPlayerItem.m; sourceTree = "<group>"; };
+		E023EEA41EF9078C0043AD29 /* AHPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHPlayerView.h; sourceTree = "<group>"; };
+		E023EEA51EF9078C0043AD29 /* AHPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHPlayerView.m; sourceTree = "<group>"; };
+		E023EEA71EF90DDF0043AD29 /* AHPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AHPlayer.bundle; sourceTree = "<group>"; };
+		E023EEA91EF90E4A0043AD29 /* UIImage+AH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AH.h"; sourceTree = "<group>"; };
+		E023EEAA1EF90E4A0043AD29 /* UIImage+AH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AH.m"; sourceTree = "<group>"; };
+		E03996401EFB5BC300A449D2 /* AHPlayerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHPlayerViewDelegate.h; sourceTree = "<group>"; };
+		E03996441EFBB3B700A449D2 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		E03996451EFBB3B700A449D2 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		E03996471EFBB3D300A449D2 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		E03996481EFBB3D300A449D2 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		E039964A1EFBB46300A449D2 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		E039964B1EFBB46300A449D2 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		E03D88611F00A6A5005CBA50 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		E03D88621F00A6A5005CBA50 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53D6DC6F05E58682D8F5E86 /* libPods-AHPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14C45BC5A4E7FC3E1FB2EEB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1312EC9494A339AF7CFEF638 /* libPods-AHPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BBDB408583AEC23019EE54E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E93B24621CEC0681DDADF6 /* Pods-AHPlayer.debug.xcconfig */,
+				4373209609830B146AAAA132 /* Pods-AHPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E023EE591EF8C4BB0043AD29 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				E023EE7E1EF8C4BB0043AD29 /* AHPlayerTests */,
 				E023EE891EF8C4BB0043AD29 /* AHPlayerUITests */,
 				E023EE631EF8C4BB0043AD29 /* Products */,
+				7BBDB408583AEC23019EE54E /* Pods */,
+				14C45BC5A4E7FC3E1FB2EEB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +157,7 @@
 		E023EE641EF8C4BB0043AD29 /* AHPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				E023EE9A1EF8C8CA0043AD29 /* AHPlayer */,
 				E023EE681EF8C4BB0043AD29 /* AppDelegate.h */,
 				E023EE691EF8C4BB0043AD29 /* AppDelegate.m */,
 				E023EE6B1EF8C4BB0043AD29 /* ViewController.h */,
@@ -140,6 +197,35 @@
 			path = AHPlayerUITests;
 			sourceTree = "<group>";
 		};
+		E023EE9A1EF8C8CA0043AD29 /* AHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E023EEA71EF90DDF0043AD29 /* AHPlayer.bundle */,
+				E023EE9B1EF8C9310043AD29 /* AHPlayerItem.h */,
+				E023EE9C1EF8C9310043AD29 /* AHPlayerItem.m */,
+				E023EEA41EF9078C0043AD29 /* AHPlayerView.h */,
+				E023EEA51EF9078C0043AD29 /* AHPlayerView.m */,
+				E03996401EFB5BC300A449D2 /* AHPlayerViewDelegate.h */,
+				E00C352A1EF9FF1700569714 /* AHPlayerControView.h */,
+				E00C352B1EF9FF1700569714 /* AHPlayerControView.m */,
+				E023EEA91EF90E4A0043AD29 /* UIImage+AH.h */,
+				E023EEAA1EF90E4A0043AD29 /* UIImage+AH.m */,
+				E00C352D1EFA1D9200569714 /* AHPlayer.h */,
+				E021F1D51EFCB7AD00390891 /* AHPlayerHeader.h */,
+				E00C352E1EFA1DF800569714 /* AHPlayerStatus.h */,
+				E00C352F1EFA1DF800569714 /* AHPlayerStatus.m */,
+				E03D88611F00A6A5005CBA50 /* ZFBrightnessView.h */,
+				E03D88621F00A6A5005CBA50 /* ZFBrightnessView.m */,
+				E039964A1EFBB46300A449D2 /* MMMaterialDesignSpinner.h */,
+				E039964B1EFBB46300A449D2 /* MMMaterialDesignSpinner.m */,
+				E03996441EFBB3B700A449D2 /* ASValueTrackingSlider.h */,
+				E03996451EFBB3B700A449D2 /* ASValueTrackingSlider.m */,
+				E03996471EFBB3D300A449D2 /* ASValuePopUpView.h */,
+				E03996481EFBB3D300A449D2 /* ASValuePopUpView.m */,
+			);
+			name = AHPlayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E023EE8F1EF8C4BB0043AD29 /* Build configuration list for PBXNativeTarget "AHPlayer" */;
 			buildPhases = (
+				943B57102604B33454C413BE /* [CP] Check Pods Manifest.lock */,
 				E023EE5E1EF8C4BB0043AD29 /* Sources */,
 				E023EE5F1EF8C4BB0043AD29 /* Frameworks */,
 				E023EE601EF8C4BB0043AD29 /* Resources */,
+				43E0C05535E436362D5D3C1A /* [CP] Embed Pods Frameworks */,
+				409AFDC0412FA25FFCBC698C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +296,7 @@
 				TargetAttributes = {
 					E023EE611EF8C4BB0043AD29 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4J3M8NNQ6Q;
 						ProvisioningStyle = Automatic;
 					};
 					E023EE7A1EF8C4BB0043AD29 = {
@@ -247,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E023EE751EF8C4BB0043AD29 /* LaunchScreen.storyboard in Resources */,
+				E023EEA81EF90DDF0043AD29 /* AHPlayer.bundle in Resources */,
 				E023EE721EF8C4BB0043AD29 /* Assets.xcassets in Resources */,
 				E023EE701EF8C4BB0043AD29 /* Main.storyboard in Resources */,
 			);
@@ -268,13 +359,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		409AFDC0412FA25FFCBC698C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHPlayer/Pods-AHPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43E0C05535E436362D5D3C1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHPlayer/Pods-AHPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943B57102604B33454C413BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E023EE5E1EF8C4BB0043AD29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E023EEAB1EF90E4A0043AD29 /* UIImage+AH.m in Sources */,
+				E03996491EFBB3D300A449D2 /* ASValuePopUpView.m in Sources */,
 				E023EE6D1EF8C4BB0043AD29 /* ViewController.m in Sources */,
+				E023EEA61EF9078C0043AD29 /* AHPlayerView.m in Sources */,
+				E00C352C1EF9FF1700569714 /* AHPlayerControView.m in Sources */,
 				E023EE6A1EF8C4BB0043AD29 /* AppDelegate.m in Sources */,
+				E03996461EFBB3B700A449D2 /* ASValueTrackingSlider.m in Sources */,
+				E039964C1EFBB46300A449D2 /* MMMaterialDesignSpinner.m in Sources */,
+				E00C35301EFA1DF800569714 /* AHPlayerStatus.m in Sources */,
+				E03D88631F00A6A5005CBA50 /* ZFBrightnessView.m in Sources */,
+				E023EE9D1EF8C9310043AD29 /* AHPlayerItem.m in Sources */,
 				E023EE671EF8C4BB0043AD29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +572,12 @@
 		};
 		E023EE901EF8C4BB0043AD29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86E93B24621CEC0681DDADF6 /* Pods-AHPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J3M8NNQ6Q;
 				INFOPLIST_FILE = AHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GPUImageDemo.AHPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +586,12 @@
 		};
 		E023EE911EF8C4BB0043AD29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4373209609830B146AAAA132 /* Pods-AHPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4J3M8NNQ6Q;
 				INFOPLIST_FILE = AHPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GPUImageDemo.AHPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +663,7 @@
 				E023EE911EF8C4BB0043AD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E023EE921EF8C4BB0043AD29 /* Build configuration list for PBXNativeTarget "AHPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +672,7 @@
 				E023EE941EF8C4BB0043AD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E023EE951EF8C4BB0043AD29 /* Build configuration list for PBXNativeTarget "AHPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +681,7 @@
 				E023EE971EF8C4BB0043AD29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
